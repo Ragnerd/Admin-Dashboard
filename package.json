@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "craco build",
+    "build": "vite build",
     "lint": "eslint",
     "preview": "vite preview",
     "start": "craco start",
-    "test": "craco test"
+    "test": "vitest"
   },
   "dependencies": {
     "@craco/craco": "^7.1.0",
