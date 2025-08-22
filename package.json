@@ -8,16 +8,14 @@
     "build": "vite build",
     "lint": "eslint",
     "preview": "vite preview",
-    "start": "craco start",
     "test": "vitest"
   },
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@syncfusion/ej2": "^30.2.4",
-    "@syncfusion/ej2-react-grids": "^30.2.4",
     "@syncfusion/ej2-react-calendars": "*",
     "@syncfusion/ej2-react-charts": "*",
     "@syncfusion/ej2-react-dropdowns": "*",
+    "@syncfusion/ej2-react-grids": "^30.2.4",
     "@syncfusion/ej2-react-inputs": "*",
     "@syncfusion/ej2-react-kanban": "*",
     "@syncfusion/ej2-react-popups": "*",
