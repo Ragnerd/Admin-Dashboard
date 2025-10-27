@@ -43,7 +43,7 @@ const App = () => {
             </TooltipComponent>
           </div>
           {activeMenu ? (
-            <div className="fixed w-72 sidebar dark:bg-secondary-dark-bg bg-whte">
+            <div className="fixed w-72 sidebar dark:bg-secondary-dark-bg bg-white">
               <Sidebar />
             </div>
           ) : (
@@ -57,7 +57,7 @@ const App = () => {
             }`}
           >
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
-              {/* <Navbar /> */}
+              <Navbar />
             </div>
           </div>
           <Routes>
@@ -82,6 +82,7 @@ const App = () => {
             <Route path="/bar" element={<Bar />} />
             <Route path="/pie" element={<Pie />} />
             <Route path="/financial" element={<Financial />} />
+            <Route path="/color-mapping" element={<Color />} />
             <Route path="/pyramid" element={<Pyramid />} />
             <Route path="/stacked" element={<Stacked />} />
           </Routes>
