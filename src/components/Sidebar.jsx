@@ -8,10 +8,10 @@ import { links } from "../data/dummy2";
 import { useStateContext } from "../contexts/ContextProvider";
 
 const Sidebar = () => {
-  const [activeMenu, setActiveMenu] = useStateContext();
+  const { currentColor, activeMenu, setActiveMenu } = useStateContext();
 
   const activeLink =
-    "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-black bg-gray-100 text-md m-2";
+    "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-gray-700 bg-gray-100 text-md m-2";
 
   const normalLink =
     "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md text-gray-700 dark:text-gray-200 dark:hover:text-black hover:bg-light-gray m-2";
@@ -31,10 +31,9 @@ const Sidebar = () => {
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
                 type="button"
-                onClick={() =>
-                  setActiveMenu((prevActiveMenu) => !prevActiveMenu)
-                }
-                className="text-xl rounded-full p-3 mt-4 hover:bg-light-gray block md:hidden"
+                onClick={() => setActiveMenu((prev) => !prev)}
+                style={{ color: currentColor }}
+                className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden"
               >
                 <MdOutlineCancel />
               </button>
