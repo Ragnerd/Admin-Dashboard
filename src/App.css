@@ -1,4 +1,42 @@
 @import url("https://cdn.syncfusion.com/ej2/material.css");
+@import "tailwindcss";
+
+@theme {
+    /* Fonts */
+  --font-family-display: "Open Sans", sans-serif;
+  --font-family-body: "Open Sans", sans-serif;
+  
+ /* Font sizes */
+  --font-size-14: 14px;
+
+  /* Border widths */
+  --border-width-1: 1px;
+
+  /* Border colors */
+  --color-color: rgba(0, 0, 0, 0.1);
+
+  /* Widths */
+  --spacing-400: 400px;
+  --spacing-760: 760px;
+  --spacing-780: 780px;
+  --spacing-800: 800px;
+  --spacing-1000: 1000px;
+  --spacing-1200: 1200px;
+  --spacing-1400: 1400px;
+
+  /* Heights */
+  --spacing-80: 80px;
+
+  /* Min heights */
+  --min-height-590: 590px;
+
+  --color-main-bg: #FAFBFB;
+  --color-main-dark-bg: #20232A;
+  --color-secondary-dark-bg: #33373E;
+  --color-light-gray: #F7F7F7;
+  --color-half-transparent: rgba(0, 0, 0, 0.5);
+  --background-image-hero-pattern: url('/welcome-bg.svg');
+}
 
 .sidebar {
   box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;

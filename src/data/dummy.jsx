@@ -2956,13 +2956,6 @@ export const dropdownData = [
     Time: "May 2021",
   },
 ];
-export const SparklineAreaData = [
-  { x: 1, yval: 2 },
-  { x: 2, yval: 6 },
-  { x: 3, yval: 8 },
-  { x: 4, yval: 5 },
-  { x: 5, yval: 10 },
-];
 
 export const lineCustomSeries = [
   {
@@ -3023,13 +3016,6 @@ export const contextMenuItems = [
   "PrevPage",
   "LastPage",
   "NextPage",
-];
-
-export const ecomPieChartData = [
-  { x: "2018", y: 18, text: "35%" },
-  { x: "2019", y: 18, text: "15%" },
-  { x: "2020", y: 18, text: "25%" },
-  { x: "2021", y: 18, text: "25%" },
 ];
 
 export const stackedChartData = [
